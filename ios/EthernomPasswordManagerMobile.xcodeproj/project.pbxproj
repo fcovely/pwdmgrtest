@@ -1,0 +1,1359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02F4A177E5B295E96496CBA6 /* libPods-EthernomPasswordManagerMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C506592E65F28A99DF6FF244 /* libPods-EthernomPasswordManagerMobile.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1BC844B5966C4DE493F6856A /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CE34589D0EB473390763A29 /* FontAwesome.ttf */; };
+		1E6FF11B65724FC185CE0E09 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69044C90B26F4172A3D7FA27 /* MaterialCommunityIcons.ttf */; };
+		32BCDD80F7D94AD6BE2162F0 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0A57D1EDECC4F0193C35B65 /* Entypo.ttf */; };
+		48D13F384B884AD58BCD37A2 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41FB52D0765A444E9B01107B /* Zocial.ttf */; };
+		5159F41D65BB4C3C8DF50F95 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC7E3F8B9F1D42F1BE8EBFB3 /* FontAwesome5_Solid.ttf */; };
+		57BA196E1AA04CE885A77CB8 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4D582FBED444FC8AB56AF8C /* Ionicons.ttf */; };
+		5BF0066F355240B0B74CDDEF /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DC02D28CD1B4AAB97C64D4C /* MaterialIcons.ttf */; };
+		5CA5ABA5CC3149E5B7915205 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8A7700C38F34984B484FBAB /* Fontisto.ttf */; };
+		64C754B7E618439994825478 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD3D09D37F4E428DBCA22190 /* FontAwesome5_Brands.ttf */; };
+		7892EA3F238F5BA300263205 /* EtherTransportProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA22238F5BA300263205 /* EtherTransportProtocol.swift */; };
+		7892EA40238F5BA300263205 /* DiscoverServiceListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA27238F5BA300263205 /* DiscoverServiceListener.swift */; };
+		7892EA41238F5BA300263205 /* TMessageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA28238F5BA300263205 /* TMessageProtocol.swift */; };
+		7892EA42238F5BA300263205 /* ConnectionListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA2A238F5BA300263205 /* ConnectionListener.swift */; };
+		7892EA43238F5BA300263205 /* EtherAPIPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA2B238F5BA300263205 /* EtherAPIPackage.swift */; };
+		7892EA44238F5BA300263205 /* CardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA2C238F5BA300263205 /* CardInfo.swift */; };
+		7892EA45238F5BA300263205 /* EtherError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA2D238F5BA300263205 /* EtherError.swift */; };
+		7892EA46238F5BA300263205 /* EtherAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA2E238F5BA300263205 /* EtherAPIManager.m */; };
+		7892EA47238F5BA300263205 /* EtherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA2F238F5BA300263205 /* EtherAPI.swift */; };
+		7892EA48238F5BA300263205 /* ServiceEventListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA30238F5BA300263205 /* ServiceEventListener.swift */; };
+		7892EA49238F5BA300263205 /* TInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA32238F5BA300263205 /* TInterface.swift */; };
+		7892EA4A238F5BA300263205 /* EtherNFCAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA33238F5BA300263205 /* EtherNFCAdapter.swift */; };
+		7892EA4B238F5BA300263205 /* AdapterListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA34238F5BA300263205 /* AdapterListener.swift */; };
+		7892EA4C238F5BA300263205 /* EtherBTAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA35238F5BA300263205 /* EtherBTAdapter.swift */; };
+		7892EA4D238F5BA300263205 /* CardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA36238F5BA300263205 /* CardListener.swift */; };
+		7892EA4E238F5BA300263205 /* EtherCommAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA37238F5BA300263205 /* EtherCommAdapter.swift */; };
+		7892EA4F238F5BA300263205 /* ReadListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA38238F5BA300263205 /* ReadListener.swift */; };
+		7892EA50238F5BA300263205 /* UnSolicitedEventListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA39238F5BA300263205 /* UnSolicitedEventListener.swift */; };
+		7892EA51238F5BA300263205 /* SelectListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA3A238F5BA300263205 /* SelectListener.swift */; };
+		7892EA52238F5BA300263205 /* CardCloseListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA3B238F5BA300263205 /* CardCloseListener.swift */; };
+		79A8C5F072AC46F78B6470E9 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34885B20B63A42BC9183A446 /* Feather.ttf */; };
+		8EF14F9318634ECBACBF476B /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1B43C97FFAC47A883F579C6 /* AntDesign.ttf */; };
+		902AFADD234BF2F200F4C70B /* DomainParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90819B942347C5060089CAC9 /* DomainParser.framework */; };
+		902AFAE7234BFADC00F4C70B /* DomainParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90819B942347C5060089CAC9 /* DomainParser.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		902AFAE8234BFADC00F4C70B /* DomainParser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 90819B942347C5060089CAC9 /* DomainParser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		909FFEA7233B11F40009FA7D /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 909FFEA6233B11F40009FA7D /* AuthenticationServices.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		909FFEAD233B12030009FA7D /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 909FFEA6233B11F40009FA7D /* AuthenticationServices.framework */; };
+		909FFEB3233B12030009FA7D /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 909FFEB1233B12030009FA7D /* MainInterface.storyboard */; };
+		909FFEB8233B12030009FA7D /* AutofillExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 909FFEAC233B12030009FA7D /* AutofillExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		909FFF16233B16FD0009FA7D /* CredProviderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909FFF15233B16FD0009FA7D /* CredProviderViewController.swift */; };
+		91C7FCDBD64645F1B837615F /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 786AF700C8114EA7960CC678 /* Foundation.ttf */; };
+		B3B973B2E4C3404CB8B629F6 /* libPods-AutofillExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 956CE7876F58BA0A821F8B29 /* libPods-AutofillExtension.a */; };
+		B485A8750CCA474EBCF01A54 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5A27BA319334DDE8DB87D19 /* SimpleLineIcons.ttf */; };
+		C167274F23CF1E5700DB3064 /* connecting.png in Resources */ = {isa = PBXBuildFile; fileRef = C167274E23CF1E5700DB3064 /* connecting.png */; };
+		C1C3610C23A3713D007B6B37 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3610B23A3713D007B6B37 /* Constant.swift */; };
+		C1C3611923A50C5D007B6B37 /* PinCodeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3611823A50C5C007B6B37 /* PinCodeTextField.swift */; };
+		C1C3611B23A50EB2007B6B37 /* PinCodeTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3611A23A50EB2007B6B37 /* PinCodeTextFieldDelegate.swift */; };
+		C1C3611D23A50F2A007B6B37 /* TextHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3611C23A50F2A007B6B37 /* TextHelper.swift */; };
+		C1D6C5D92350699900688DC4 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 008F07F21AC5B25A0029DE68 /* main.jsbundle */; };
+		E730E34C23CFA68B000106BC /* aes_eaxBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = E730E34B23CFA68B000106BC /* aes_eaxBridge.mm */; };
+		E730E34E23CFC6D0000106BC /* AppBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E730E34D23CFC6D0000106BC /* AppBase.swift */; };
+		E730E35023CFC70A000106BC /* PwdMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = E730E34F23CFC70A000106BC /* PwdMgr.swift */; };
+		E730E35123CFC798000106BC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E738057423CF86C80065A3C5 /* Extensions.swift */; };
+		E73197DE23D0D69F009346C7 /* EtherECDH.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76CEEAC23CF7F5C00805E58 /* EtherECDH.swift */; };
+		E73197E323D0D6E8009346C7 /* TMessageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA28238F5BA300263205 /* TMessageProtocol.swift */; };
+		E73197E423D0D6E8009346C7 /* CardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA2C238F5BA300263205 /* CardInfo.swift */; };
+		E73197E523D0D6E8009346C7 /* EtherError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA2D238F5BA300263205 /* EtherError.swift */; };
+		E73197E623D0D6E8009346C7 /* TInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA32238F5BA300263205 /* TInterface.swift */; };
+		E73197E723D0D6E8009346C7 /* AdapterListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA34238F5BA300263205 /* AdapterListener.swift */; };
+		E73197E823D0D6E8009346C7 /* CardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA36238F5BA300263205 /* CardListener.swift */; };
+		E73197E923D0D6E8009346C7 /* ReadListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA38238F5BA300263205 /* ReadListener.swift */; };
+		E73197EA23D0D6E8009346C7 /* SelectListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA3A238F5BA300263205 /* SelectListener.swift */; };
+		E73197EB23D0D6E8009346C7 /* CardCloseListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA3B238F5BA300263205 /* CardCloseListener.swift */; };
+		E73197EC23D0D71B009346C7 /* EtherCommAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA37238F5BA300263205 /* EtherCommAdapter.swift */; };
+		E73197F023D0DD94009346C7 /* DiscoverServiceListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA27238F5BA300263205 /* DiscoverServiceListener.swift */; };
+		E738057A23CF86C80065A3C5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E738057423CF86C80065A3C5 /* Extensions.swift */; };
+		E738057B23CF86C80065A3C5 /* EtherEncHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E738057923CF86C80065A3C5 /* EtherEncHeader.swift */; };
+		E74927FD23D282CE0048BACF /* EtherCryptoMgrProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76CEEAE23CF7F5C00805E58 /* EtherCryptoMgrProtocol.swift */; };
+		E74927FE23D282CE0048BACF /* eax.h in Sources */ = {isa = PBXBuildFile; fileRef = E76CEEB023CF7F5C00805E58 /* eax.h */; };
+		E74927FF23D282CE0048BACF /* eax.c in Sources */ = {isa = PBXBuildFile; fileRef = E76CEEB123CF7F5C00805E58 /* eax.c */; };
+		E749280023D282D70048BACF /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = E76CEEB323CF7F5C00805E58 /* aeskey.c */; };
+		E749280123D282D70048BACF /* aestab.h in Sources */ = {isa = PBXBuildFile; fileRef = E76CEEB423CF7F5C00805E58 /* aestab.h */; };
+		E749280223D282D70048BACF /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = E76CEEB523CF7F5C00805E58 /* aescrypt.c */; };
+		E749280323D282D70048BACF /* aesopt.h in Sources */ = {isa = PBXBuildFile; fileRef = E76CEEB623CF7F5C00805E58 /* aesopt.h */; };
+		E749280423D282D70048BACF /* brg_types.h in Sources */ = {isa = PBXBuildFile; fileRef = E76CEEB723CF7F5C00805E58 /* brg_types.h */; };
+		E749280523D282D70048BACF /* brg_endian.h in Sources */ = {isa = PBXBuildFile; fileRef = E76CEEB823CF7F5C00805E58 /* brg_endian.h */; };
+		E749280623D282D70048BACF /* aes.h in Sources */ = {isa = PBXBuildFile; fileRef = E76CEEB923CF7F5C00805E58 /* aes.h */; };
+		E749280723D282D70048BACF /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = E76CEEBA23CF7F5C00805E58 /* aestab.c */; };
+		E75F718023D7A9A700037219 /* Ether_AESEAX.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75F717B23D7A9A700037219 /* Ether_AESEAX.swift */; };
+		E75F718123D7AFFF00037219 /* Ether_AESEAX.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75F717B23D7A9A700037219 /* Ether_AESEAX.swift */; };
+		E75F718223D7B01500037219 /* EtherTransportProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA22238F5BA300263205 /* EtherTransportProtocol.swift */; };
+		E75F718423D7B0DA00037219 /* EtherSecureSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75F718323D7B0DA00037219 /* EtherSecureSession.swift */; };
+		E75F718523D7B10100037219 /* EtherSecureSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75F718323D7B0DA00037219 /* EtherSecureSession.swift */; };
+		E76CEEC023CF7F5C00805E58 /* EtherECDH.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76CEEAC23CF7F5C00805E58 /* EtherECDH.swift */; };
+		E76CEEC223CF7F5C00805E58 /* EtherCryptoMgrProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76CEEAE23CF7F5C00805E58 /* EtherCryptoMgrProtocol.swift */; };
+		E76CEEC323CF7F5C00805E58 /* eax.c in Sources */ = {isa = PBXBuildFile; fileRef = E76CEEB123CF7F5C00805E58 /* eax.c */; };
+		E76CEEC423CF7F5C00805E58 /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = E76CEEB323CF7F5C00805E58 /* aeskey.c */; };
+		E76CEEC523CF7F5C00805E58 /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = E76CEEB523CF7F5C00805E58 /* aescrypt.c */; };
+		E76CEEC623CF7F5C00805E58 /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = E76CEEBA23CF7F5C00805E58 /* aestab.c */; };
+		E77224F023D8C95B00BC4195 /* EthBLEClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77224EF23D8C95B00BC4195 /* EthBLEClient.swift */; };
+		E77224F123D8D22400BC4195 /* EthBLEClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77224EF23D8C95B00BC4195 /* EthBLEClient.swift */; };
+		E772250523D94B8500BC4195 /* EthernomConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = E772250023D94B8500BC4195 /* EthernomConst.swift */; };
+		E772250623D94B8E00BC4195 /* EthernomConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = E772250023D94B8500BC4195 /* EthernomConst.swift */; };
+		E772250723D94C8D00BC4195 /* EtherBTAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EA35238F5BA300263205 /* EtherBTAdapter.swift */; };
+		E776046523B59C48008F4147 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E776046023B59C48008F4147 /* GoogleService-Info.plist */; };
+		E7CE339623DA8C1000D02BDC /* EncConnectionListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CE339123DA8C0F00D02BDC /* EncConnectionListener.swift */; };
+		E7CE339823DA945800D02BDC /* FrameworkSecureSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CE339723DA945800D02BDC /* FrameworkSecureSession.swift */; };
+		E7F07E9123D145DB0099DA9A /* EtherEncHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E738057923CF86C80065A3C5 /* EtherEncHeader.swift */; };
+		E7F7F34123D2899900D8FD21 /* aes_eaxBridge.h in Sources */ = {isa = PBXBuildFile; fileRef = E730E34A23CFA68B000106BC /* aes_eaxBridge.h */; };
+		E7F7F34223D2899900D8FD21 /* aes_eaxBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = E730E34B23CFA68B000106BC /* aes_eaxBridge.mm */; };
+		E9FC3290AB0E41FFA99FAE11 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA7C5735263A47AC940BF629 /* Octicons.ttf */; };
+		EAF2B6F402A2405D94C35D4A /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 756B4AC8EAB443BE92CA4260 /* FontAwesome5_Regular.ttf */; };
+		F80033B0949D4CDCA419C3B3 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03B7C22DB4BD45AE84651C36 /* EvilIcons.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7892EA3D238F5BA300263205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7892EA24238F5BA300263205 /* EthernomApi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E775FEF823634247003CFD96;
+			remoteInfo = EthernomApi;
+		};
+		902AFAE0234BF40300F4C70B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90819B8C2347C5060089CAC9 /* DomainParser.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CE0026620FF7AD5008E6415;
+			remoteInfo = DomainParser;
+		};
+		90819B932347C5060089CAC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90819B8C2347C5060089CAC9 /* DomainParser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CE0026720FF7AD5008E6415;
+			remoteInfo = DomainParser;
+		};
+		90819B952347C5060089CAC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90819B8C2347C5060089CAC9 /* DomainParser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CE0027020FF7AD5008E6415;
+			remoteInfo = DomainParserTests;
+		};
+		90819B972347C5060089CAC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90819B8C2347C5060089CAC9 /* DomainParser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1C75D2112100E1EB0057B32D;
+			remoteInfo = DomainParser_macOS;
+		};
+		90819B992347C5060089CAC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90819B8C2347C5060089CAC9 /* DomainParser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1C75D2192100E1EC0057B32D;
+			remoteInfo = DomainParser_macOSTests;
+		};
+		909FFEB6233B12030009FA7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 909FFEAB233B12030009FA7D;
+			remoteInfo = AutofillExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		902AFAE9234BFADC00F4C70B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				902AFAE8234BFADC00F4C70B /* DomainParser.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909FFEBC233B12030009FA7D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				909FFEB8233B12030009FA7D /* AutofillExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00C0B76BC6F645EE87DBE592 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* EthernomPasswordManagerMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EthernomPasswordManagerMobileTests.m; sourceTree = "<group>"; };
+		03B7C22DB4BD45AE84651C36 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		048E461F307C4C13A1E666C7 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/native-base/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		119D9AB6B606F094EDCFA87B /* libPods-EthernomPasswordManagerMobile-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EthernomPasswordManagerMobile-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* Ethernom Password Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ethernom Password Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = EthernomPasswordManagerMobile/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = EthernomPasswordManagerMobile/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = EthernomPasswordManagerMobile/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = EthernomPasswordManagerMobile/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = EthernomPasswordManagerMobile/main.m; sourceTree = "<group>"; };
+		1EE2077C58D341E99F4AB8F0 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		2871D7B9850788C2DF774A7A /* libPods-EthernomPasswordManagerMobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EthernomPasswordManagerMobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34885B20B63A42BC9183A446 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		35F23DCB949F4D1EB0472153 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		409092D5ED4498A63C4B8A4D /* Pods-EthernomPasswordManagerMobile-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EthernomPasswordManagerMobile-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-EthernomPasswordManagerMobile-tvOS/Pods-EthernomPasswordManagerMobile-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		41F845E05DA8471C8D0FF2D8 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		41FB52D0765A444E9B01107B /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		4C813D760EC24C21852272EF /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		4DC02D28CD1B4AAB97C64D4C /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		5B48799E29314FE7AA60D55B /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		5C5674093D174F9C9B13105F /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
+		5DAF2913D6B14A9DA73E1266 /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
+		648B9656546742EA8635578D /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
+		68F50F22B7FF40DDB57CBFF7 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		69044C90B26F4172A3D7FA27 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		74C6C5665B00A5A2545734B2 /* Pods-EthernomPasswordManagerMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EthernomPasswordManagerMobileTests.debug.xcconfig"; path = "Target Support Files/Pods-EthernomPasswordManagerMobileTests/Pods-EthernomPasswordManagerMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		756B4AC8EAB443BE92CA4260 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		786AF700C8114EA7960CC678 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		7892EA21238F5BA300263205 /* EtherAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EtherAPIManager.h; sourceTree = "<group>"; };
+		7892EA22238F5BA300263205 /* EtherTransportProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtherTransportProtocol.swift; sourceTree = "<group>"; };
+		7892EA23238F5BA300263205 /* EthernomApi-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EthernomApi-Bridging-Header.h"; sourceTree = "<group>"; };
+		7892EA24238F5BA300263205 /* EthernomApi.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = EthernomApi.xcodeproj; sourceTree = "<group>"; };
+		7892EA27238F5BA300263205 /* DiscoverServiceListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverServiceListener.swift; sourceTree = "<group>"; };
+		7892EA28238F5BA300263205 /* TMessageProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMessageProtocol.swift; sourceTree = "<group>"; };
+		7892EA29238F5BA300263205 /* ethernom_api-Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ethernom_api-Swift.h"; sourceTree = "<group>"; };
+		7892EA2A238F5BA300263205 /* ConnectionListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionListener.swift; sourceTree = "<group>"; };
+		7892EA2B238F5BA300263205 /* EtherAPIPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtherAPIPackage.swift; sourceTree = "<group>"; };
+		7892EA2C238F5BA300263205 /* CardInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardInfo.swift; sourceTree = "<group>"; };
+		7892EA2D238F5BA300263205 /* EtherError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtherError.swift; sourceTree = "<group>"; };
+		7892EA2E238F5BA300263205 /* EtherAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EtherAPIManager.m; sourceTree = "<group>"; };
+		7892EA2F238F5BA300263205 /* EtherAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtherAPI.swift; sourceTree = "<group>"; };
+		7892EA30238F5BA300263205 /* ServiceEventListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceEventListener.swift; sourceTree = "<group>"; };
+		7892EA32238F5BA300263205 /* TInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TInterface.swift; sourceTree = "<group>"; };
+		7892EA33238F5BA300263205 /* EtherNFCAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtherNFCAdapter.swift; sourceTree = "<group>"; };
+		7892EA34238F5BA300263205 /* AdapterListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdapterListener.swift; sourceTree = "<group>"; };
+		7892EA35238F5BA300263205 /* EtherBTAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtherBTAdapter.swift; sourceTree = "<group>"; };
+		7892EA36238F5BA300263205 /* CardListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardListener.swift; sourceTree = "<group>"; };
+		7892EA37238F5BA300263205 /* EtherCommAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtherCommAdapter.swift; sourceTree = "<group>"; };
+		7892EA38238F5BA300263205 /* ReadListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadListener.swift; sourceTree = "<group>"; };
+		7892EA39238F5BA300263205 /* UnSolicitedEventListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnSolicitedEventListener.swift; sourceTree = "<group>"; };
+		7892EA3A238F5BA300263205 /* SelectListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectListener.swift; sourceTree = "<group>"; };
+		7892EA3B238F5BA300263205 /* CardCloseListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCloseListener.swift; sourceTree = "<group>"; };
+		7CFD613A72BC4092BC7A40E8 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		80DF52512A49408DB84418AA /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		82049DD969D748D595D0615E /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		90224B7B4520163A2462E6E5 /* Pods-EthernomPasswordManagerMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EthernomPasswordManagerMobile.release.xcconfig"; path = "Target Support Files/Pods-EthernomPasswordManagerMobile/Pods-EthernomPasswordManagerMobile.release.xcconfig"; sourceTree = "<group>"; };
+		90819B8C2347C5060089CAC9 /* DomainParser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DomainParser.xcodeproj; path = DomainParser/DomainParser/DomainParser.xcodeproj; sourceTree = "<group>"; };
+		909FFEA5233B11EC0009FA7D /* EthernomPasswordManagerMobileRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = EthernomPasswordManagerMobileRelease.entitlements; path = EthernomPasswordManagerMobile/EthernomPasswordManagerMobileRelease.entitlements; sourceTree = "<group>"; };
+		909FFEA6233B11F40009FA7D /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		909FFEAC233B12030009FA7D /* AutofillExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AutofillExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		909FFEB2233B12030009FA7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		909FFEB4233B12030009FA7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		909FFEB5233B12030009FA7D /* AutofillExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AutofillExtension.entitlements; sourceTree = "<group>"; };
+		909FFEBD233B12AB0009FA7D /* EthernomPasswordManagerMobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = EthernomPasswordManagerMobile.entitlements; path = EthernomPasswordManagerMobile/EthernomPasswordManagerMobile.entitlements; sourceTree = "<group>"; };
+		909FFF15233B16FD0009FA7D /* CredProviderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CredProviderViewController.swift; sourceTree = "<group>"; };
+		90F5FA3823C56D0E00AF86F4 /* Ethernom-ExtensionsBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ethernom-ExtensionsBridgingHeader.h"; sourceTree = "<group>"; };
+		956CE7876F58BA0A821F8B29 /* libPods-AutofillExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutofillExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		992F09132912540F1ED35AFB /* Pods-AutofillExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutofillExtension.debug.xcconfig"; path = "Target Support Files/Pods-AutofillExtension/Pods-AutofillExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		997E5C4B6F99E50642958066 /* Pods-AutofillExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutofillExtension.release.xcconfig"; path = "Target Support Files/Pods-AutofillExtension/Pods-AutofillExtension.release.xcconfig"; sourceTree = "<group>"; };
+		9C53D762D9E469040381FF22 /* libPods-EthernomPasswordManagerMobile-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EthernomPasswordManagerMobile-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CE34589D0EB473390763A29 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		A4D582FBED444FC8AB56AF8C /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		AB621857B5BB4029989F14B4 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		AEDFB5F4C57D4376A386117C /* Pods-EthernomPasswordManagerMobile-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EthernomPasswordManagerMobile-tvOS.release.xcconfig"; path = "Target Support Files/Pods-EthernomPasswordManagerMobile-tvOS/Pods-EthernomPasswordManagerMobile-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		B5C5DCA33296456E954198F1 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		B7087D5C138A43728E35001E /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		BAE91324C8EDAEA56010F53F /* Pods-EthernomPasswordManagerMobile-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EthernomPasswordManagerMobile-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-EthernomPasswordManagerMobile-tvOSTests/Pods-EthernomPasswordManagerMobile-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C08B5EF3BE9D423FAE771F76 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		C167274E23CF1E5700DB3064 /* connecting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = connecting.png; sourceTree = "<group>"; };
+		C1C3610B23A3713D007B6B37 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = AutoFillExtension/Constant.swift; sourceTree = SOURCE_ROOT; };
+		C1C3611823A50C5C007B6B37 /* PinCodeTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PinCodeTextField.swift; path = AutoFillExtension/PinCode/PinCodeTextField.swift; sourceTree = SOURCE_ROOT; };
+		C1C3611A23A50EB2007B6B37 /* PinCodeTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PinCodeTextFieldDelegate.swift; path = AutoFillExtension/PinCode/PinCodeTextFieldDelegate.swift; sourceTree = SOURCE_ROOT; };
+		C1C3611C23A50F2A007B6B37 /* TextHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TextHelper.swift; path = AutoFillExtension/PinCode/TextHelper.swift; sourceTree = SOURCE_ROOT; };
+		C506592E65F28A99DF6FF244 /* libPods-EthernomPasswordManagerMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EthernomPasswordManagerMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE6BC755A8B40B09F682719 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		CD3D09D37F4E428DBCA22190 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		D1B43C97FFAC47A883F579C6 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		D5A27BA319334DDE8DB87D19 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		D8A7700C38F34984B484FBAB /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		DADC360B1002CD3A5F6457C5 /* Pods-EthernomPasswordManagerMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EthernomPasswordManagerMobileTests.release.xcconfig"; path = "Target Support Files/Pods-EthernomPasswordManagerMobileTests/Pods-EthernomPasswordManagerMobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		E730E34123CF8B0A000106BC /* mode_hdr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mode_hdr.h; path = Crypto/mode_hdr.h; sourceTree = "<group>"; };
+		E730E34A23CFA68B000106BC /* aes_eaxBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes_eaxBridge.h; sourceTree = "<group>"; };
+		E730E34B23CFA68B000106BC /* aes_eaxBridge.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = aes_eaxBridge.mm; sourceTree = "<group>"; };
+		E730E34D23CFC6D0000106BC /* AppBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppBase.swift; path = AutoFillExtension/AppBase.swift; sourceTree = SOURCE_ROOT; };
+		E730E34F23CFC70A000106BC /* PwdMgr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PwdMgr.swift; path = AutoFillExtension/PwdMgr.swift; sourceTree = SOURCE_ROOT; };
+		E738057423CF86C80065A3C5 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E738057923CF86C80065A3C5 /* EtherEncHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtherEncHeader.swift; sourceTree = "<group>"; };
+		E75F717B23D7A9A700037219 /* Ether_AESEAX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ether_AESEAX.swift; sourceTree = "<group>"; };
+		E75F718323D7B0DA00037219 /* EtherSecureSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EtherSecureSession.swift; path = ../EtherSecureSession.swift; sourceTree = "<group>"; };
+		E76CEEAC23CF7F5C00805E58 /* EtherECDH.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtherECDH.swift; sourceTree = "<group>"; };
+		E76CEEAE23CF7F5C00805E58 /* EtherCryptoMgrProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtherCryptoMgrProtocol.swift; sourceTree = "<group>"; };
+		E76CEEB023CF7F5C00805E58 /* eax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eax.h; sourceTree = "<group>"; };
+		E76CEEB123CF7F5C00805E58 /* eax.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = eax.c; sourceTree = "<group>"; };
+		E76CEEB323CF7F5C00805E58 /* aeskey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aeskey.c; sourceTree = "<group>"; };
+		E76CEEB423CF7F5C00805E58 /* aestab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aestab.h; sourceTree = "<group>"; };
+		E76CEEB523CF7F5C00805E58 /* aescrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aescrypt.c; sourceTree = "<group>"; };
+		E76CEEB623CF7F5C00805E58 /* aesopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aesopt.h; sourceTree = "<group>"; };
+		E76CEEB723CF7F5C00805E58 /* brg_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_types.h; sourceTree = "<group>"; };
+		E76CEEB823CF7F5C00805E58 /* brg_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_endian.h; sourceTree = "<group>"; };
+		E76CEEB923CF7F5C00805E58 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		E76CEEBA23CF7F5C00805E58 /* aestab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aestab.c; sourceTree = "<group>"; };
+		E77224EF23D8C95B00BC4195 /* EthBLEClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EthBLEClient.swift; sourceTree = "<group>"; };
+		E772250023D94B8500BC4195 /* EthernomConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EthernomConst.swift; sourceTree = "<group>"; };
+		E776046023B59C48008F4147 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "EthernomPasswordManagerMobile/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E7CE339123DA8C0F00D02BDC /* EncConnectionListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncConnectionListener.swift; sourceTree = "<group>"; };
+		E7CE339723DA945800D02BDC /* FrameworkSecureSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FrameworkSecureSession.swift; path = ../FrameworkSecureSession.swift; sourceTree = "<group>"; };
+		E7E8C9FBFBE9BB5F5A45FCA4 /* Pods-EthernomPasswordManagerMobile-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EthernomPasswordManagerMobile-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-EthernomPasswordManagerMobile-tvOSTests/Pods-EthernomPasswordManagerMobile-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		E7F7F34023D288F900D8FD21 /* etherBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = etherBridge.h; path = EthernomPasswordManagerMobile/etherBridge.h; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F0A57D1EDECC4F0193C35B65 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		FA7C5735263A47AC940BF629 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		FC7E3F8B9F1D42F1BE8EBFB3 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		FCD9C0E39469A7CD6754D836 /* Pods-EthernomPasswordManagerMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EthernomPasswordManagerMobile.debug.xcconfig"; path = "Target Support Files/Pods-EthernomPasswordManagerMobile/Pods-EthernomPasswordManagerMobile.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909FFEA7233B11F40009FA7D /* AuthenticationServices.framework in Frameworks */,
+				02F4A177E5B295E96496CBA6 /* libPods-EthernomPasswordManagerMobile.a in Frameworks */,
+				902AFAE7234BFADC00F4C70B /* DomainParser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909FFEA9233B12030009FA7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909FFEAD233B12030009FA7D /* AuthenticationServices.framework in Frameworks */,
+				B3B973B2E4C3404CB8B629F6 /* libPods-AutofillExtension.a in Frameworks */,
+				902AFADD234BF2F200F4C70B /* DomainParser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* EthernomPasswordManagerMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* EthernomPasswordManagerMobileTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = EthernomPasswordManagerMobileTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* EthernomPasswordManagerMobile */ = {
+			isa = PBXGroup;
+			children = (
+				E7F7F34023D288F900D8FD21 /* etherBridge.h */,
+				E776046023B59C48008F4147 /* GoogleService-Info.plist */,
+				909FFEBD233B12AB0009FA7D /* EthernomPasswordManagerMobile.entitlements */,
+				909FFEA5233B11EC0009FA7D /* EthernomPasswordManagerMobileRelease.entitlements */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = EthernomPasswordManagerMobile;
+			sourceTree = "<group>";
+		};
+		26C1AF8C3B42E8DF913A6BB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCD9C0E39469A7CD6754D836 /* Pods-EthernomPasswordManagerMobile.debug.xcconfig */,
+				90224B7B4520163A2462E6E5 /* Pods-EthernomPasswordManagerMobile.release.xcconfig */,
+				409092D5ED4498A63C4B8A4D /* Pods-EthernomPasswordManagerMobile-tvOS.debug.xcconfig */,
+				AEDFB5F4C57D4376A386117C /* Pods-EthernomPasswordManagerMobile-tvOS.release.xcconfig */,
+				BAE91324C8EDAEA56010F53F /* Pods-EthernomPasswordManagerMobile-tvOSTests.debug.xcconfig */,
+				E7E8C9FBFBE9BB5F5A45FCA4 /* Pods-EthernomPasswordManagerMobile-tvOSTests.release.xcconfig */,
+				74C6C5665B00A5A2545734B2 /* Pods-EthernomPasswordManagerMobileTests.debug.xcconfig */,
+				DADC360B1002CD3A5F6457C5 /* Pods-EthernomPasswordManagerMobileTests.release.xcconfig */,
+				992F09132912540F1ED35AFB /* Pods-AutofillExtension.debug.xcconfig */,
+				997E5C4B6F99E50642958066 /* Pods-AutofillExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				909FFEA6233B11F40009FA7D /* AuthenticationServices.framework */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				C506592E65F28A99DF6FF244 /* libPods-EthernomPasswordManagerMobile.a */,
+				119D9AB6B606F094EDCFA87B /* libPods-EthernomPasswordManagerMobile-tvOS.a */,
+				9C53D762D9E469040381FF22 /* libPods-EthernomPasswordManagerMobile-tvOSTests.a */,
+				2871D7B9850788C2DF774A7A /* libPods-EthernomPasswordManagerMobileTests.a */,
+				956CE7876F58BA0A821F8B29 /* libPods-AutofillExtension.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74A98E2CB9FD4504B9D0BF0F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB621857B5BB4029989F14B4 /* AntDesign.ttf */,
+				5B48799E29314FE7AA60D55B /* Entypo.ttf */,
+				1EE2077C58D341E99F4AB8F0 /* EvilIcons.ttf */,
+				68F50F22B7FF40DDB57CBFF7 /* Feather.ttf */,
+				4C813D760EC24C21852272EF /* FontAwesome.ttf */,
+				80DF52512A49408DB84418AA /* FontAwesome5_Brands.ttf */,
+				82049DD969D748D595D0615E /* FontAwesome5_Regular.ttf */,
+				00C0B76BC6F645EE87DBE592 /* FontAwesome5_Solid.ttf */,
+				048E461F307C4C13A1E666C7 /* Fontisto.ttf */,
+				7CFD613A72BC4092BC7A40E8 /* Foundation.ttf */,
+				CCE6BC755A8B40B09F682719 /* Ionicons.ttf */,
+				41F845E05DA8471C8D0FF2D8 /* MaterialCommunityIcons.ttf */,
+				B5C5DCA33296456E954198F1 /* MaterialIcons.ttf */,
+				C08B5EF3BE9D423FAE771F76 /* Octicons.ttf */,
+				5C5674093D174F9C9B13105F /* Roboto_medium.ttf */,
+				648B9656546742EA8635578D /* Roboto.ttf */,
+				5DAF2913D6B14A9DA73E1266 /* rubicon-icon-font.ttf */,
+				B7087D5C138A43728E35001E /* SimpleLineIcons.ttf */,
+				35F23DCB949F4D1EB0472153 /* Zocial.ttf */,
+				D1B43C97FFAC47A883F579C6 /* AntDesign.ttf */,
+				F0A57D1EDECC4F0193C35B65 /* Entypo.ttf */,
+				03B7C22DB4BD45AE84651C36 /* EvilIcons.ttf */,
+				34885B20B63A42BC9183A446 /* Feather.ttf */,
+				9CE34589D0EB473390763A29 /* FontAwesome.ttf */,
+				CD3D09D37F4E428DBCA22190 /* FontAwesome5_Brands.ttf */,
+				756B4AC8EAB443BE92CA4260 /* FontAwesome5_Regular.ttf */,
+				FC7E3F8B9F1D42F1BE8EBFB3 /* FontAwesome5_Solid.ttf */,
+				D8A7700C38F34984B484FBAB /* Fontisto.ttf */,
+				786AF700C8114EA7960CC678 /* Foundation.ttf */,
+				A4D582FBED444FC8AB56AF8C /* Ionicons.ttf */,
+				69044C90B26F4172A3D7FA27 /* MaterialCommunityIcons.ttf */,
+				4DC02D28CD1B4AAB97C64D4C /* MaterialIcons.ttf */,
+				FA7C5735263A47AC940BF629 /* Octicons.ttf */,
+				D5A27BA319334DDE8DB87D19 /* SimpleLineIcons.ttf */,
+				41FB52D0765A444E9B01107B /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7892EA20238F5BA300263205 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				E76CEEAA23CF7F5C00805E58 /* Crypto */,
+				7892EA21238F5BA300263205 /* EtherAPIManager.h */,
+				7892EA2E238F5BA300263205 /* EtherAPIManager.m */,
+				E772250023D94B8500BC4195 /* EthernomConst.swift */,
+				E77224EF23D8C95B00BC4195 /* EthBLEClient.swift */,
+				7892EA22238F5BA300263205 /* EtherTransportProtocol.swift */,
+				7892EA23238F5BA300263205 /* EthernomApi-Bridging-Header.h */,
+				7892EA24238F5BA300263205 /* EthernomApi.xcodeproj */,
+				7892EA27238F5BA300263205 /* DiscoverServiceListener.swift */,
+				E730E34123CF8B0A000106BC /* mode_hdr.h */,
+				E738057923CF86C80065A3C5 /* EtherEncHeader.swift */,
+				E738057423CF86C80065A3C5 /* Extensions.swift */,
+				7892EA28238F5BA300263205 /* TMessageProtocol.swift */,
+				7892EA29238F5BA300263205 /* ethernom_api-Swift.h */,
+				E7CE339123DA8C0F00D02BDC /* EncConnectionListener.swift */,
+				7892EA2A238F5BA300263205 /* ConnectionListener.swift */,
+				7892EA2B238F5BA300263205 /* EtherAPIPackage.swift */,
+				7892EA2C238F5BA300263205 /* CardInfo.swift */,
+				7892EA2D238F5BA300263205 /* EtherError.swift */,
+				7892EA2F238F5BA300263205 /* EtherAPI.swift */,
+				7892EA30238F5BA300263205 /* ServiceEventListener.swift */,
+				7892EA31238F5BA300263205 /* LinkLayer */,
+				7892EA38238F5BA300263205 /* ReadListener.swift */,
+				7892EA39238F5BA300263205 /* UnSolicitedEventListener.swift */,
+				7892EA3A238F5BA300263205 /* SelectListener.swift */,
+				7892EA3B238F5BA300263205 /* CardCloseListener.swift */,
+			);
+			name = ios;
+			path = "../node_modules/@ethernom/ethernom-api/ios";
+			sourceTree = "<group>";
+		};
+		7892EA25238F5BA300263205 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7892EA3E238F5BA300263205 /* libEthernomApi.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7892EA31238F5BA300263205 /* LinkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				7892EA32238F5BA300263205 /* TInterface.swift */,
+				7892EA33238F5BA300263205 /* EtherNFCAdapter.swift */,
+				7892EA34238F5BA300263205 /* AdapterListener.swift */,
+				7892EA35238F5BA300263205 /* EtherBTAdapter.swift */,
+				7892EA36238F5BA300263205 /* CardListener.swift */,
+				7892EA37238F5BA300263205 /* EtherCommAdapter.swift */,
+			);
+			path = LinkLayer;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				90F5FA3823C56D0E00AF86F4 /* Ethernom-ExtensionsBridgingHeader.h */,
+				7892EA20238F5BA300263205 /* ios */,
+				90819B8C2347C5060089CAC9 /* DomainParser.xcodeproj */,
+				13B07FAE1A68108700A75B9A /* EthernomPasswordManagerMobile */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* EthernomPasswordManagerMobileTests */,
+				909FFEAE233B12030009FA7D /* AutofillExtension */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				74A98E2CB9FD4504B9D0BF0F /* Resources */,
+				26C1AF8C3B42E8DF913A6BB5 /* Pods */,
+				C161F82423C5C7E600220B11 /* Recovered References */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Ethernom Password Manager.app */,
+				909FFEAC233B12030009FA7D /* AutofillExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90819B8D2347C5060089CAC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90819B942347C5060089CAC9 /* DomainParser.framework */,
+				90819B962347C5060089CAC9 /* DomainParserTests.xctest */,
+				90819B982347C5060089CAC9 /* DomainParser.framework */,
+				90819B9A2347C5060089CAC9 /* DomainParser_macOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		909FFEAE233B12030009FA7D /* AutofillExtension */ = {
+			isa = PBXGroup;
+			children = (
+				C167274D23CF1E3E00DB3064 /* asset */,
+				C1C3611723A50C3A007B6B37 /* PinCode */,
+				909FFF15233B16FD0009FA7D /* CredProviderViewController.swift */,
+				909FFEB1233B12030009FA7D /* MainInterface.storyboard */,
+				909FFEB4233B12030009FA7D /* Info.plist */,
+				909FFEB5233B12030009FA7D /* AutofillExtension.entitlements */,
+				C1C3610B23A3713D007B6B37 /* Constant.swift */,
+				E730E34D23CFC6D0000106BC /* AppBase.swift */,
+				E730E34F23CFC70A000106BC /* PwdMgr.swift */,
+			);
+			path = AutofillExtension;
+			sourceTree = "<group>";
+		};
+		C161F82423C5C7E600220B11 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		C167274D23CF1E3E00DB3064 /* asset */ = {
+			isa = PBXGroup;
+			children = (
+				C167274E23CF1E5700DB3064 /* connecting.png */,
+			);
+			path = asset;
+			sourceTree = "<group>";
+		};
+		C1C3611723A50C3A007B6B37 /* PinCode */ = {
+			isa = PBXGroup;
+			children = (
+				C1C3611823A50C5C007B6B37 /* PinCodeTextField.swift */,
+				C1C3611A23A50EB2007B6B37 /* PinCodeTextFieldDelegate.swift */,
+				C1C3611C23A50F2A007B6B37 /* TextHelper.swift */,
+			);
+			path = PinCode;
+			sourceTree = "<group>";
+		};
+		E76CEEAA23CF7F5C00805E58 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				E75F718323D7B0DA00037219 /* EtherSecureSession.swift */,
+				E7CE339723DA945800D02BDC /* FrameworkSecureSession.swift */,
+				E730E34A23CFA68B000106BC /* aes_eaxBridge.h */,
+				E730E34B23CFA68B000106BC /* aes_eaxBridge.mm */,
+				E76CEEAC23CF7F5C00805E58 /* EtherECDH.swift */,
+				E76CEEAE23CF7F5C00805E58 /* EtherCryptoMgrProtocol.swift */,
+				E75F717B23D7A9A700037219 /* Ether_AESEAX.swift */,
+				E76CEEB023CF7F5C00805E58 /* eax.h */,
+				E76CEEB123CF7F5C00805E58 /* eax.c */,
+				E76CEEB223CF7F5C00805E58 /* aes */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		E76CEEB223CF7F5C00805E58 /* aes */ = {
+			isa = PBXGroup;
+			children = (
+				E76CEEB323CF7F5C00805E58 /* aeskey.c */,
+				E76CEEB423CF7F5C00805E58 /* aestab.h */,
+				E76CEEB523CF7F5C00805E58 /* aescrypt.c */,
+				E76CEEB623CF7F5C00805E58 /* aesopt.h */,
+				E76CEEB723CF7F5C00805E58 /* brg_types.h */,
+				E76CEEB823CF7F5C00805E58 /* brg_endian.h */,
+				E76CEEB923CF7F5C00805E58 /* aes.h */,
+				E76CEEBA23CF7F5C00805E58 /* aestab.c */,
+			);
+			path = aes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* EthernomPasswordManagerMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "EthernomPasswordManagerMobile" */;
+			buildPhases = (
+				A7634005CE0DC8CD59F86B44 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				47C134B1DF049F798CA98FA3 /* [CP] Copy Pods Resources */,
+				909FFEBC233B12030009FA7D /* Embed App Extensions */,
+				902AFAE9234BFADC00F4C70B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				909FFEB7233B12030009FA7D /* PBXTargetDependency */,
+			);
+			name = EthernomPasswordManagerMobile;
+			productName = EthernomPasswordManagerMobile;
+			productReference = 13B07F961A680F5B00A75B9A /* Ethernom Password Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		909FFEAB233B12030009FA7D /* AutofillExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 909FFEB9233B12030009FA7D /* Build configuration list for PBXNativeTarget "AutofillExtension" */;
+			buildPhases = (
+				5EDF2913FAE825A80F3B5A1B /* [CP] Check Pods Manifest.lock */,
+				909FFEA8233B12030009FA7D /* Sources */,
+				909FFEA9233B12030009FA7D /* Frameworks */,
+				909FFEAA233B12030009FA7D /* Resources */,
+				902AFACC234BE37500F4C70B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				902AFAE1234BF40300F4C70B /* PBXTargetDependency */,
+			);
+			name = AutofillExtension;
+			productName = AutofillExtension;
+			productReference = 909FFEAC233B12030009FA7D /* AutofillExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = JD98BX35MB;
+						ProvisioningStyle = Automatic;
+					};
+					909FFEAB233B12030009FA7D = {
+						CreatedOnToolsVersion = 11.0;
+						DevelopmentTeam = JD98BX35MB;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "EthernomPasswordManagerMobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 90819B8D2347C5060089CAC9 /* Products */;
+					ProjectRef = 90819B8C2347C5060089CAC9 /* DomainParser.xcodeproj */;
+				},
+				{
+					ProductGroup = 7892EA25238F5BA300263205 /* Products */;
+					ProjectRef = 7892EA24238F5BA300263205 /* EthernomApi.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* EthernomPasswordManagerMobile */,
+				909FFEAB233B12030009FA7D /* AutofillExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7892EA3E238F5BA300263205 /* libEthernomApi.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libEthernomApi.a;
+			remoteRef = 7892EA3D238F5BA300263205 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		90819B942347C5060089CAC9 /* DomainParser.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DomainParser.framework;
+			remoteRef = 90819B932347C5060089CAC9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		90819B962347C5060089CAC9 /* DomainParserTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DomainParserTests.xctest;
+			remoteRef = 90819B952347C5060089CAC9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		90819B982347C5060089CAC9 /* DomainParser.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DomainParser.framework;
+			remoteRef = 90819B972347C5060089CAC9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		90819B9A2347C5060089CAC9 /* DomainParser_macOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DomainParser_macOSTests.xctest;
+			remoteRef = 90819B992347C5060089CAC9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D6C5D92350699900688DC4 /* main.jsbundle in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				8EF14F9318634ECBACBF476B /* AntDesign.ttf in Resources */,
+				32BCDD80F7D94AD6BE2162F0 /* Entypo.ttf in Resources */,
+				F80033B0949D4CDCA419C3B3 /* EvilIcons.ttf in Resources */,
+				79A8C5F072AC46F78B6470E9 /* Feather.ttf in Resources */,
+				1BC844B5966C4DE493F6856A /* FontAwesome.ttf in Resources */,
+				64C754B7E618439994825478 /* FontAwesome5_Brands.ttf in Resources */,
+				EAF2B6F402A2405D94C35D4A /* FontAwesome5_Regular.ttf in Resources */,
+				5159F41D65BB4C3C8DF50F95 /* FontAwesome5_Solid.ttf in Resources */,
+				5CA5ABA5CC3149E5B7915205 /* Fontisto.ttf in Resources */,
+				91C7FCDBD64645F1B837615F /* Foundation.ttf in Resources */,
+				57BA196E1AA04CE885A77CB8 /* Ionicons.ttf in Resources */,
+				1E6FF11B65724FC185CE0E09 /* MaterialCommunityIcons.ttf in Resources */,
+				5BF0066F355240B0B74CDDEF /* MaterialIcons.ttf in Resources */,
+				E9FC3290AB0E41FFA99FAE11 /* Octicons.ttf in Resources */,
+				E776046523B59C48008F4147 /* GoogleService-Info.plist in Resources */,
+				B485A8750CCA474EBCF01A54 /* SimpleLineIcons.ttf in Resources */,
+				48D13F384B884AD58BCD37A2 /* Zocial.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909FFEAA233B12030009FA7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909FFEB3233B12030009FA7D /* MainInterface.storyboard in Resources */,
+				C167274F23CF1E5700DB3064 /* connecting.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		47C134B1DF049F798CA98FA3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EthernomPasswordManagerMobile/Pods-EthernomPasswordManagerMobile-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EthernomPasswordManagerMobile/Pods-EthernomPasswordManagerMobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EDF2913FAE825A80F3B5A1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutofillExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		902AFACC234BE37500F4C70B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\"\nif [[ -d \"Frameworks\" ]]; then\nrm -fr Frameworks\nfi\n";
+		};
+		A7634005CE0DC8CD59F86B44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EthernomPasswordManagerMobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76CEEC323CF7F5C00805E58 /* eax.c in Sources */,
+				E76CEEC623CF7F5C00805E58 /* aestab.c in Sources */,
+				E76CEEC523CF7F5C00805E58 /* aescrypt.c in Sources */,
+				7892EA51238F5BA300263205 /* SelectListener.swift in Sources */,
+				7892EA4A238F5BA300263205 /* EtherNFCAdapter.swift in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				E738057B23CF86C80065A3C5 /* EtherEncHeader.swift in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				7892EA4F238F5BA300263205 /* ReadListener.swift in Sources */,
+				7892EA48238F5BA300263205 /* ServiceEventListener.swift in Sources */,
+				E76CEEC423CF7F5C00805E58 /* aeskey.c in Sources */,
+				E76CEEC023CF7F5C00805E58 /* EtherECDH.swift in Sources */,
+				7892EA52238F5BA300263205 /* CardCloseListener.swift in Sources */,
+				E76CEEC223CF7F5C00805E58 /* EtherCryptoMgrProtocol.swift in Sources */,
+				7892EA45238F5BA300263205 /* EtherError.swift in Sources */,
+				7892EA4B238F5BA300263205 /* AdapterListener.swift in Sources */,
+				7892EA41238F5BA300263205 /* TMessageProtocol.swift in Sources */,
+				7892EA42238F5BA300263205 /* ConnectionListener.swift in Sources */,
+				E772250523D94B8500BC4195 /* EthernomConst.swift in Sources */,
+				7892EA46238F5BA300263205 /* EtherAPIManager.m in Sources */,
+				E7CE339823DA945800D02BDC /* FrameworkSecureSession.swift in Sources */,
+				E738057A23CF86C80065A3C5 /* Extensions.swift in Sources */,
+				E77224F023D8C95B00BC4195 /* EthBLEClient.swift in Sources */,
+				E7CE339623DA8C1000D02BDC /* EncConnectionListener.swift in Sources */,
+				E75F718423D7B0DA00037219 /* EtherSecureSession.swift in Sources */,
+				7892EA43238F5BA300263205 /* EtherAPIPackage.swift in Sources */,
+				7892EA40238F5BA300263205 /* DiscoverServiceListener.swift in Sources */,
+				7892EA49238F5BA300263205 /* TInterface.swift in Sources */,
+				7892EA4E238F5BA300263205 /* EtherCommAdapter.swift in Sources */,
+				7892EA47238F5BA300263205 /* EtherAPI.swift in Sources */,
+				7892EA3F238F5BA300263205 /* EtherTransportProtocol.swift in Sources */,
+				E730E34C23CFA68B000106BC /* aes_eaxBridge.mm in Sources */,
+				E75F718023D7A9A700037219 /* Ether_AESEAX.swift in Sources */,
+				7892EA50238F5BA300263205 /* UnSolicitedEventListener.swift in Sources */,
+				7892EA4D238F5BA300263205 /* CardListener.swift in Sources */,
+				7892EA4C238F5BA300263205 /* EtherBTAdapter.swift in Sources */,
+				7892EA44238F5BA300263205 /* CardInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909FFEA8233B12030009FA7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E772250723D94C8D00BC4195 /* EtherBTAdapter.swift in Sources */,
+				E772250623D94B8E00BC4195 /* EthernomConst.swift in Sources */,
+				E77224F123D8D22400BC4195 /* EthBLEClient.swift in Sources */,
+				E75F718523D7B10100037219 /* EtherSecureSession.swift in Sources */,
+				E75F718223D7B01500037219 /* EtherTransportProtocol.swift in Sources */,
+				E75F718123D7AFFF00037219 /* Ether_AESEAX.swift in Sources */,
+				E7F7F34123D2899900D8FD21 /* aes_eaxBridge.h in Sources */,
+				E7F7F34223D2899900D8FD21 /* aes_eaxBridge.mm in Sources */,
+				E749280023D282D70048BACF /* aeskey.c in Sources */,
+				E749280123D282D70048BACF /* aestab.h in Sources */,
+				E749280223D282D70048BACF /* aescrypt.c in Sources */,
+				E749280323D282D70048BACF /* aesopt.h in Sources */,
+				E749280423D282D70048BACF /* brg_types.h in Sources */,
+				E749280523D282D70048BACF /* brg_endian.h in Sources */,
+				E749280623D282D70048BACF /* aes.h in Sources */,
+				E749280723D282D70048BACF /* aestab.c in Sources */,
+				E74927FD23D282CE0048BACF /* EtherCryptoMgrProtocol.swift in Sources */,
+				E74927FE23D282CE0048BACF /* eax.h in Sources */,
+				E74927FF23D282CE0048BACF /* eax.c in Sources */,
+				E7F07E9123D145DB0099DA9A /* EtherEncHeader.swift in Sources */,
+				E73197F023D0DD94009346C7 /* DiscoverServiceListener.swift in Sources */,
+				E73197EC23D0D71B009346C7 /* EtherCommAdapter.swift in Sources */,
+				E73197E323D0D6E8009346C7 /* TMessageProtocol.swift in Sources */,
+				E73197E423D0D6E8009346C7 /* CardInfo.swift in Sources */,
+				E73197E523D0D6E8009346C7 /* EtherError.swift in Sources */,
+				E73197E623D0D6E8009346C7 /* TInterface.swift in Sources */,
+				E73197E723D0D6E8009346C7 /* AdapterListener.swift in Sources */,
+				E73197E823D0D6E8009346C7 /* CardListener.swift in Sources */,
+				E73197E923D0D6E8009346C7 /* ReadListener.swift in Sources */,
+				E73197EA23D0D6E8009346C7 /* SelectListener.swift in Sources */,
+				E73197EB23D0D6E8009346C7 /* CardCloseListener.swift in Sources */,
+				E73197DE23D0D69F009346C7 /* EtherECDH.swift in Sources */,
+				E730E35123CFC798000106BC /* Extensions.swift in Sources */,
+				E730E35023CFC70A000106BC /* PwdMgr.swift in Sources */,
+				C1C3611B23A50EB2007B6B37 /* PinCodeTextFieldDelegate.swift in Sources */,
+				C1C3611923A50C5D007B6B37 /* PinCodeTextField.swift in Sources */,
+				909FFF16233B16FD0009FA7D /* CredProviderViewController.swift in Sources */,
+				E730E34E23CFC6D0000106BC /* AppBase.swift in Sources */,
+				C1C3611D23A50F2A007B6B37 /* TextHelper.swift in Sources */,
+				C1C3610C23A3713D007B6B37 /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		902AFAE1234BF40300F4C70B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DomainParser;
+			targetProxy = 902AFAE0234BF40300F4C70B /* PBXContainerItemProxy */;
+		};
+		909FFEB7233B12030009FA7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 909FFEAB233B12030009FA7D /* AutofillExtension */;
+			targetProxy = 909FFEB6233B12030009FA7D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = EthernomPasswordManagerMobile;
+			sourceTree = "<group>";
+		};
+		909FFEB1233B12030009FA7D /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				909FFEB2233B12030009FA7D /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCD9C0E39469A7CD6754D836 /* Pods-EthernomPasswordManagerMobile.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CODE_SIGN_ENTITLEMENTS = EthernomPasswordManagerMobile/EthernomPasswordManagerMobile.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = JD98BX35MB;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = EthernomPasswordManagerMobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.0.12;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethernom.password.manager.mobile;
+				PRODUCT_NAME = "Ethernom Password Manager";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = etherBridge.h;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "ethernom-Swift.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90224B7B4520163A2462E6E5 /* Pods-EthernomPasswordManagerMobile.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CODE_SIGN_ENTITLEMENTS = EthernomPasswordManagerMobile/EthernomPasswordManagerMobileRelease.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = JD98BX35MB;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = EthernomPasswordManagerMobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.0.12;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethernom.password.manager.mobile;
+				PRODUCT_NAME = "Ethernom Password Manager";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = etherBridge.h;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "ethernom-Swift.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = etherBridge.h;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "ethernom-Swift.h";
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = etherBridge.h;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "ethernom-Swift.h";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		909FFEBA233B12030009FA7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 992F09132912540F1ED35AFB /* Pods-AutofillExtension.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = AutofillExtension/AutofillExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = JD98BX35MB;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				INFOPLIST_FILE = AutofillExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0.12;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethernom.password.manager.mobile.autofillextension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = etherBridge.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		909FFEBB233B12030009FA7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 997E5C4B6F99E50642958066 /* Pods-AutofillExtension.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = AutofillExtension/AutofillExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 10;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = JD98BX35MB;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				INFOPLIST_FILE = AutofillExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0.12;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethernom.password.manager.mobile.autofillextension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = etherBridge.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "EthernomPasswordManagerMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "EthernomPasswordManagerMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		909FFEB9233B12030009FA7D /* Build configuration list for PBXNativeTarget "AutofillExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				909FFEBA233B12030009FA7D /* Debug */,
+				909FFEBB233B12030009FA7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

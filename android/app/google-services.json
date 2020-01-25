@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "470434188836",
+    "firebase_url": "https://ethernom-psd-mgr-mobile.firebaseio.com",
+    "project_id": "ethernom-psd-mgr-mobile",
+    "storage_bucket": "ethernom-psd-mgr-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470434188836:android:112ffe8b8a6a47027e52b1",
+        "android_client_info": {
+          "package_name": "com.ethernom.psdmgr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470434188836-6cr3kemm94q8vldbk78uphfkag4669ri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA59kdGAjjggwh3LdXmvTlOQzXIpFvmrg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "470434188836-6cr3kemm94q8vldbk78uphfkag4669ri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
